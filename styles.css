@@ -30,6 +30,26 @@ header {
     padding: 30px 5%;
 }
 
+longbutton{
+    padding: 15px 25px;
+    background-color: #80AF85;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    
+}
+
+closet_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 .logo {
     cursor: pointer;
     margin-right: auto;
@@ -61,6 +81,38 @@ button {
     transition: all 0.3s ease 0s;
 }
 
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+#tierlist {
+    height: 65vh;
+    display: flex;
+    flex-direction:column;
+
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    float: left;
+    opacity: 0.8
+}
+
+.tier {
+    height: 200px;
+    display: flex;
+    width: 100%;
+    background-color:#80AF85;
+    opacity: 1;
+}
+
 button:hover {
     background-color: rgba(0, 136, 169 0.8);
+}
+
+
+p1{ 
+    font-family: "Montserrat", sans-serif;
+    text-align: left; !important
+    align-items: left; !important
+    padding: 10px; !important
 }
